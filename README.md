@@ -22,7 +22,21 @@ Validation: I used 5-fold cross-validation during training to make sure the 0.24
 Final Confusion Matrix
 [[21 12]  <-- 21 Healthy people identified
  [ 1 27]] <-- 27 Sick people identified, only 1 missed.
- What's Next
+
+
+How to Run
+To run this project locally, ensure you have Python installed, then:
+
+Clone the repository** (or download the files).
+Install dependencies
+   
+   pip install -r requirements.txt
+Run the Notebook: Open Heart_Disease_Analysis.ipynb in Jupyter Lab or VS Code.
+
+Predict: Use the heart_disease_model_v1.pkl with the provided get_medical_report function to test new patient data.
+
+
+ What's Next 
 Pipeline Automation: I want to eventually automate the data cleaning (dropping features, encoding) so the model can handle raw data faster.
 
 Regression Tasks: Moving on to predicting continuous values next to get better at different types of ML tasks.
